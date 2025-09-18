@@ -85,11 +85,13 @@ All tests must pass before submission.
 
 ## 🏗️ Architecture
 
+```mermaid
 flowchart TD
     A[Developer runs command] --> B[Docker Container]
     B --> C[solution.sh executes]
     C --> D[system.log (input)]
     C --> E[errors.log (output - filtered ERROR lines)]
+```
 
 ## 👤 Author
 
@@ -98,4 +100,5 @@ Misbah Ashiq
 - 📧 Contact: misbahdevops46@gmail.com
 - GitHub: [Misbah-Ashiq](https://github.com/Misbah-Ashiq/Kubernetes-Full-Stack-Project-on-EKS.git)
 - Linkedin: [Misbah Ashiq](www.linkedin.com/in/misbah-ashiq-14a0aa356)
+
 - UpWork: [Misbah Ashiq](https://www.upwork.com/freelancers/~0174d196bc738ae9ea)
