@@ -85,13 +85,8 @@ All tests must pass before submission.
 
 ## 🏗️ Architecture
 
-```mermaid
-flowchart TD
-    A[Developer runs command] --> B[Docker Container]
-    B --> C[solution.sh executes]
-    C --> D[system.log (input)]
-    C --> E[errors.log (output - filtered ERROR lines)]
-```
+<img width="928" height="590" alt="image" src="https://github.com/user-attachments/assets/90ea7af9-3123-4038-a865-c9190f29a7ce" />
+
 
 ## 👤 Author
 
@@ -102,3 +97,4 @@ Misbah Ashiq
 - Linkedin: [Misbah Ashiq](www.linkedin.com/in/misbah-ashiq-14a0aa356)
 
 - UpWork: [Misbah Ashiq](https://www.upwork.com/freelancers/~0174d196bc738ae9ea)
+
