@@ -1,0 +1,14 @@
+instruction: |
+  Base:
+    A log file is located at /app/system.log. 
+    Your task is to write a Bash script that:
+      1. Reads /app/system.log
+      2. Extracts only the lines containing the word "ERROR"
+      3. Removes duplicate lines (only keep first occurrence)
+      4. Saves the result into /app/errors.log
+  The test suite will validate that /app/errors.log contains only the unique ERROR lines from system.log.
+author_email: misbah@example.com
+difficulty: medium
+tags: [bash, linux, logs, filtering]
+max_agent_timeout_sec: 120
+max_test_timeout_sec: 30
